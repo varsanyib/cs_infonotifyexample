@@ -12,6 +12,8 @@
     <None Remove="Sounds\Danger3.mp3" />
     <None Remove="Sounds\Information.mp3" />
     <None Remove="Sounds\Warning.mp3" />
+    <None Remove="warning-icon-png-2743-Windows.ico" />
+    <None Remove="warning.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,10 +26,15 @@
     <Content Include="Sounds\Information.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="warning-icon-png-2743-Windows.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Notifications.Wpf" Version="0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="warning.ico" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:InfoNotifyExample"
         xmlns:notifications="clr-namespace:Notifications.Wpf.Controls;assembly=Notifications.Wpf"
         mc:Ignorable="d"
-        Title="InfoNotifyExample" Height="400" Width="600" MinHeight="400" MinWidth="600" Closed="Window_Closed">
+        Title="InfoNotifyExample" Height="400" Width="600" MinHeight="400" MinWidth="600" Closed="Window_Closed" Icon="/warning.ico">
     <Grid>
         <StackPanel>
             <WrapPanel HorizontalAlignment="Center">
