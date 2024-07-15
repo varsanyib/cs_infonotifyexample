@@ -80,5 +80,10 @@ namespace InfoNotifyExample
         {
             MessageBox.Show("Message Closed!", "Notify");
         }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
